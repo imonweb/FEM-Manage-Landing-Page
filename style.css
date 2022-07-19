@@ -4,8 +4,8 @@
 
   --color-primary-400: hsl(228, 39%, 23%);
 
-  --color-neutral-100: hsl(232, 12%, 13%);
-  --color-neutral-900: hsl(0, 0%, 0%);
+  --color-neutral-900: hsl(232, 12%, 13%);
+  --color-neutral-100: hsl(0, 0%, 100%);
 
   --ff-primary: 'Be Vietname Pro', sans-serif;
   
@@ -178,3 +178,11 @@ svg {
 .fs-300 { font-size: var(--fs-300); }
 .fs-400 { font-size: var(--fs-400); }
 .fs-500 { font-size: var(--fs-500); }
+
+
+/*  General styling */
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--color-primary-400)
+}
