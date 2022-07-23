@@ -277,3 +277,20 @@ body {
   background-color: var(--color-neutral-100);
 }
 
+/*  navigation */
+
+.primar-header {
+  margin-top: var(--size-700);
+  display: flex;
+}
+
+.mobile-nav-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0.5em;
+}
+
+.mobile-nva-toggle .icon-close {
+  display: none;
+}
