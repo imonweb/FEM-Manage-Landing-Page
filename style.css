@@ -284,13 +284,33 @@ body {
   display: flex;
 }
 
-.mobile-nav-toggle {
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  padding: 0.5em;
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.mobile-nva-toggle .icon-close {
+.mobile-nav-toggle {
   display: none;
 }
+
+@media (max-width: 50em) {
+  .primary-navigation {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: 0.5em;
+  }
+
+  .mobile-nav-toggle .icon-close {
+    display: none;
+  }
+
+} /*  media queries */
+
+
