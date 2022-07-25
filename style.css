@@ -314,3 +314,7 @@ body {
 } /*  media queries */
 
 
+.opened {
+  display: block;
+  position: fixed;
+}
