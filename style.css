@@ -299,6 +299,11 @@ body {
     display: none;
   }
 
+  .primary-navigation[data-visible]{
+    display: block;
+    position: fixed;
+  }
+
   .mobile-nav-toggle {
     display: block;
     cursor: pointer;
@@ -313,8 +318,8 @@ body {
 
 } /*  media queries */
 
-
+/* 
 .opened {
   display: block;
   position: fixed;
-}
+} */
