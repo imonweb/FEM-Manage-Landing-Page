@@ -340,7 +340,9 @@ body {
   }
 
   .mobile-nav-toggle {
-    display: fixed;
+    display: block;
+    top: var(--size-500);
+    right:var(--size-400);
     cursor: pointer;
     background: transparent;
     border: 0;
