@@ -341,6 +341,7 @@ body {
 
   .mobile-nav-toggle {
     display: block;
+    position: fixed;
     top: var(--size-500);
     right:var(--size-400);
     cursor: pointer;
